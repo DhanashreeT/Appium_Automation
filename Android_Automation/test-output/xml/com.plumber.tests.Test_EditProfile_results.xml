@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Pune_Plumber_Tests"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="130.485">
+  <properties />
+  
+  
+            <testcase name="verifyEditProfile" time="41.767" classname="com.plumber.tests.Test_EditProfile" />
+                <testcase name="verifyEditProfile" time="46.441" classname="com.plumber.tests.Test_EditProfile" />
+                <testcase name="verifyEditProfile" time="42.277" classname="com.plumber.tests.Test_EditProfile" />
+      
+</testsuite>

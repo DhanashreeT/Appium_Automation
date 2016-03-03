@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Pune_Plumber_Tests"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="9.608">
+  <properties />
+  
+  
+            <testcase name="logoutTest" time="9.608" classname="Plumber.tests.Test_Logout" />
+      
+</testsuite>

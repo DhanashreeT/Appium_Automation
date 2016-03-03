@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Pune_Plumber_Tests"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="43.873">
+  <properties />
+  
+  
+            <testcase name="verifyCompletingCurrentJob" time="39.582" classname="Plumber.tests.Test_currentJob" />
+                <testcase name="verifyCurrentJobForCompletedJob" time="4.291" classname="Plumber.tests.Test_currentJob" />
+      
+</testsuite>

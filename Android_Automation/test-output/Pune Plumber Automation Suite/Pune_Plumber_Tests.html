@@ -1,0 +1,210 @@
+<html>
+<head>
+<title>TestNG:  Pune_Plumber_Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Pune_Plumber_Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>17/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Nov 02 12:49:58 IST 2015</td>
+</tr>
+<tr><td>Total time:</td><td>699 seconds (699723 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.plumber.tests.Test_WorkHistory.verifyWorkHistoryForPlumber()'><b>verifyWorkHistoryForPlumber</b><br>Test class: com.plumber.tests.Test_WorkHistory</td>
+<td><div><pre>java.lang.AssertionError: Work history is not displayed for mentioned customer expected [Amit Jahagirdar] but found [TestFailure]
+	at com.plumber.tests.Test_WorkHistory.verifyWorkHistoryForPlumber(Test_WorkHistory.java:66)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace602760570", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace602760570'><pre>java.lang.AssertionError: Work history is not displayed for mentioned customer expected [Amit Jahagirdar] but found [TestFailure]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at com.plumber.tests.Test_WorkHistory.verifyWorkHistoryForPlumber(Test_WorkHistory.java:66)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>63</td>
+<td>com.plumber.tests.Test_WorkHistory@62565cf8</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.plumber.tests.Test_Login.loginTest()'><b>loginTest</b><br>Test class: com.plumber.tests.Test_Login</td>
+<td></td>
+<td>57</td>
+<td>com.plumber.tests.Test_Login@223ff173</td></tr>
+<tr>
+<td title='com.plumber.tests.Test_Logout.logoutTest()'><b>logoutTest</b><br>Test class: com.plumber.tests.Test_Logout</td>
+<td></td>
+<td>8</td>
+<td>com.plumber.tests.Test_Logout@10dbbf61</td></tr>
+<tr>
+<td title='com.plumber.tests.Test_PendingJobs.verifyAcceptJobBeforeCompletingPrevious()'><b>verifyAcceptJobBeforeCompletingPrevious</b><br>Test class: com.plumber.tests.Test_PendingJobs</td>
+<td></td>
+<td>13</td>
+<td>com.plumber.tests.Test_PendingJobs@3588d364</td></tr>
+<tr>
+<td title='com.plumber.tests.Test_PendingJobs.verifyAcceptingJob()'><b>verifyAcceptingJob</b><br>Test class: com.plumber.tests.Test_PendingJobs</td>
+<td></td>
+<td>20</td>
+<td>com.plumber.tests.Test_PendingJobs@3588d364</td></tr>
+<tr>
+<td title='com.plumber.tests.Test_ChangePassword.verifyChangedPassword()'><b>verifyChangedPassword</b><br>Test class: com.plumber.tests.Test_ChangePassword</td>
+<td></td>
+<td>84</td>
+<td>com.plumber.tests.Test_ChangePassword@29ee65b1</td></tr>
+<tr>
+<td title='com.plumber.tests.Test_currentJob.verifyCompletingCurrentJob()'><b>verifyCompletingCurrentJob</b><br>Test class: com.plumber.tests.Test_currentJob</td>
+<td></td>
+<td>35</td>
+<td>com.plumber.tests.Test_currentJob@1404c696</td></tr>
+<tr>
+<td title='com.plumber.tests.Test_currentJob.verifyCurrentJobForCompletedJob()'><b>verifyCurrentJobForCompletedJob</b><br>Test class: com.plumber.tests.Test_currentJob</td>
+<td></td>
+<td>4</td>
+<td>com.plumber.tests.Test_currentJob@1404c696</td></tr>
+<tr>
+<td title='com.plumber.tests.Test_EditProfile.verifyEditProfile()'><b>verifyEditProfile</b><br>Test class: com.plumber.tests.Test_EditProfile<br>Parameters: kothrud, 8654923654</td>
+<td></td>
+<td>46</td>
+<td>com.plumber.tests.Test_EditProfile@283a30f3</td></tr>
+<tr>
+<td title='com.plumber.tests.Test_EditProfile.verifyEditProfile()'><b>verifyEditProfile</b><br>Test class: com.plumber.tests.Test_EditProfile<br>Parameters: karvenagar, 9568325632</td>
+<td></td>
+<td>42</td>
+<td>com.plumber.tests.Test_EditProfile@283a30f3</td></tr>
+<tr>
+<td title='com.plumber.tests.Test_EditProfile.verifyEditProfile()'><b>verifyEditProfile</b><br>Test class: com.plumber.tests.Test_EditProfile<br>Parameters: Shivaji Nagar, 7589654256</td>
+<td></td>
+<td>41</td>
+<td>com.plumber.tests.Test_EditProfile@283a30f3</td></tr>
+<tr>
+<td title='com.plumber.tests.Test_Feedback.verifyFeedbackWithInvalidSecretKey()'><b>verifyFeedbackWithInvalidSecretKey</b><br>Test class: com.plumber.tests.Test_Feedback</td>
+<td></td>
+<td>22</td>
+<td>com.plumber.tests.Test_Feedback@13f1d038</td></tr>
+<tr>
+<td title='com.plumber.tests.Test_Feedback.verifyFeedbackWithValidSecretKey()'><b>verifyFeedbackWithValidSecretKey</b><br>Test class: com.plumber.tests.Test_Feedback</td>
+<td></td>
+<td>14</td>
+<td>com.plumber.tests.Test_Feedback@13f1d038</td></tr>
+<tr>
+<td title='com.plumber.tests.Test_PlumberUnavailability.verifyFinishJobOnPlumberUnavailability()'><b>verifyFinishJobOnPlumberUnavailability</b><br>Test class: com.plumber.tests.Test_PlumberUnavailability</td>
+<td></td>
+<td>32</td>
+<td>com.plumber.tests.Test_PlumberUnavailability@4af181ec</td></tr>
+<tr>
+<td title='com.plumber.tests.Test_JobCount.verifyJobCount()'><b>verifyJobCount</b><br>Test class: com.plumber.tests.Test_JobCount</td>
+<td></td>
+<td>8</td>
+<td>com.plumber.tests.Test_JobCount@479aff01</td></tr>
+<tr>
+<td title='com.plumber.tests.Test_PendingJobs.verifySkipingNormalJob()'><b>verifySkipingNormalJob</b><br>Test class: com.plumber.tests.Test_PendingJobs</td>
+<td></td>
+<td>18</td>
+<td>com.plumber.tests.Test_PendingJobs@3588d364</td></tr>
+<tr>
+<td title='com.plumber.tests.Test_PendingJobs.verifySkipingPriorityJob()'><b>verifySkipingPriorityJob</b><br>Test class: com.plumber.tests.Test_PendingJobs</td>
+<td></td>
+<td>9</td>
+<td>com.plumber.tests.Test_PendingJobs@3588d364</td></tr>
+<tr>
+<td title='com.plumber.tests.Test_PlumberUnavailability.verifyStartJobOnPlumberUnavailability()'><b>verifyStartJobOnPlumberUnavailability</b><br>Test class: com.plumber.tests.Test_PlumberUnavailability</td>
+<td></td>
+<td>36</td>
+<td>com.plumber.tests.Test_PlumberUnavailability@4af181ec</td></tr>
+</table><p>
+</body>
+</html>

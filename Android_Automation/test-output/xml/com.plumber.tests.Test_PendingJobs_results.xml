@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Pune_Plumber_Tests"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="61.965">
+  <properties />
+  
+  
+            <testcase name="verifyAcceptJobBeforeCompletingPrevious" time="13.123" classname="com.plumber.tests.Test_PendingJobs" />
+                <testcase name="verifyAcceptingJob" time="20.405" classname="com.plumber.tests.Test_PendingJobs" />
+                <testcase name="verifySkipingNormalJob" time="18.726" classname="com.plumber.tests.Test_PendingJobs" />
+                <testcase name="verifySkipingPriorityJob" time="9.711" classname="com.plumber.tests.Test_PendingJobs" />
+      
+</testsuite>

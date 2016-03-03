@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Pune Plumber Automation Suite]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="Pune_Plumber_Tests(failed)">
+    <classes>
+      <class name="com.plumber.tests.Test_EditProfile">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.plumber.tests.Test_EditProfile -->
+      <class name="com.plumber.tests.Test_JobCount">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.plumber.tests.Test_JobCount -->
+      <class name="com.plumber.tests.Test_Logout">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.plumber.tests.Test_Logout -->
+      <class name="com.plumber.tests.Test_PendingJobs">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.plumber.tests.Test_PendingJobs -->
+      <class name="com.plumber.tests.Test_PlumberUnavailability">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.plumber.tests.Test_PlumberUnavailability -->
+      <class name="com.plumber.tests.Test_ChangePassword">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.plumber.tests.Test_ChangePassword -->
+      <class name="com.plumber.tests.Test_WorkHistory">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyWorkHistoryForPlumber"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.plumber.tests.Test_WorkHistory -->
+      <class name="com.plumber.tests.Test_Feedback">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.plumber.tests.Test_Feedback -->
+      <class name="com.plumber.tests.Test_Login">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.plumber.tests.Test_Login -->
+      <class name="com.plumber.tests.Test_currentJob">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.plumber.tests.Test_currentJob -->
+    </classes>
+  </test> <!-- Pune_Plumber_Tests(failed) -->
+</suite> <!-- Failed suite [Pune Plumber Automation Suite] -->

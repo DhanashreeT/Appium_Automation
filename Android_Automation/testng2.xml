@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Pune Plumber Automation Suite" parallel="false">
+	<test name="Pune_Plumber_Tests" preserve-order="true">
+		<classes>
+			<class name="Plumber.tests.Test_JobCount" />
+			<class name="Plumber.tests.Test_PlumberUnavailability" />
+			<class name="Plumber.tests.Test_PendingJobs" />
+			<class name="Plumber.tests.Test_currentJob" />
+			<class name="Plumber.tests.Test_Feedback" />
+		</classes>
+	</test> <!-- Test -->
+ 	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+</suite>

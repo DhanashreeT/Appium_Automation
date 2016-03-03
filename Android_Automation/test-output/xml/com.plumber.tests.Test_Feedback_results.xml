@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Pune_Plumber_Tests"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="37.234">
+  <properties />
+  
+  
+            <testcase name="verifyFeedbackWithValidSecretKey" time="14.792" classname="com.plumber.tests.Test_Feedback" />
+                <testcase name="verifyFeedbackWithInvalidSecretKey" time="22.442" classname="com.plumber.tests.Test_Feedback" />
+      
+</testsuite>
