@@ -9,6 +9,9 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 
 import io.appium.java_client.android.AndroidDriver;
 
+/**
+To set up all required capabilities
+*/
 public class BaseClass {
 	@SuppressWarnings("rawtypes")
 	AndroidDriver driver = null;
