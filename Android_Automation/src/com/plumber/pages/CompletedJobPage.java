@@ -9,7 +9,7 @@ import org.openqa.selenium.support.PageFactory;
 /**
  * The Class CompletedJobPage.
  * 
- * @author Dhanashree
+ * @author Dhanashree Tannirwar
  */
 public class CompletedJobPage {
 	AndroidDriver driver = null;
