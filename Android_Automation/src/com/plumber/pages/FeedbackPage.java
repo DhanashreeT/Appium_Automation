@@ -12,7 +12,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 /**
  * The Class FeedbackPage.
  * 
- * @author Dhanashree
+ * @author Dhanashree Tannirwar
  */
 
 public class FeedbackPage {
